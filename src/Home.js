@@ -7,8 +7,8 @@ import Footer from './components/Footer';
 
 function Home() {
     return (
-        <div style={{ background: "#141414" }}>
-            <Menu />
+        <div style={{background: "#141414"}}>
+            <Menu/>
 
             <BannerMain
                 videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
@@ -41,7 +41,7 @@ function Home() {
                 category={dadosIniciais.categorias[5]}
             />
 
-            <Footer />
+            <Footer/>
         </div>
     );
 }
